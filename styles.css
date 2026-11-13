@@ -100,3 +100,35 @@ body{font-size:17px;line-height:1.75}
  .faq-list summary{font-size:12px}
  .faq-list details p{font-size:11.5px}
 }
+
+
+/* Stronger readability pass across the landing page */
+body{font-size:18px;line-height:1.8}
+p{font-size:17px!important;line-height:1.8!important}
+li{font-size:16px!important;line-height:1.75!important}
+.site-nav{font-size:15px}
+.button,.text-link{font-size:15px}
+.friction-list h3,.step-card h3,.chapter-card h3,.faq-list summary{font-size:16px}
+.eyebrow,.hero-bottomline,.list-number,.step-card>span,.preview-top,.mini-label,.chapter-tag,.chapter-meta,.outcome-top,.outcome-line span,.purchase-includes>span,.footer-bottom{font-size:11px}
+.faq-list summary{min-height:68px}
+.faq-list details p{font-size:17px!important}
+.price-row{font-size:14px}
+.price-row strong{font-size:17px}
+.checkout-hint,.delivery-note p{font-size:14px!important}
+.footer-main>p,.footer-top{font-size:12px}
+@media(max-width:680px){
+ body{font-size:17px;line-height:1.8}
+ p{font-size:16px!important;line-height:1.8!important}
+ li{font-size:15px!important;line-height:1.7!important}
+ .site-nav{font-size:16px}
+ .button,.text-link{font-size:14px}
+ .friction-list h3,.step-card h3,.chapter-card h3,.faq-list summary{font-size:15px}
+ .eyebrow,.hero-bottomline,.list-number,.step-card>span,.preview-top,.mini-label,.chapter-tag,.chapter-meta,.outcome-top,.outcome-line span,.purchase-includes>span,.footer-bottom{font-size:10px}
+ .faq-list summary{min-height:64px}
+ .faq-list details p{font-size:16px!important}
+ .price-row{font-size:13px}
+ .price-row strong{font-size:16px}
+ .checkout-hint,.delivery-note p{font-size:13px!important}
+ .footer-main>p,.footer-top{font-size:11px}
+}
+@media(max-width:370px){p{font-size:15px!important}.faq-list details p{font-size:15px!important}}
