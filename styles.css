@@ -3,3 +3,100 @@
 .hero-art{overflow:hidden}
 
 .footer-doc-links{display:flex;gap:15px}.footer-doc-links a{color:#b7c4bb;text-decoration:none}.footer-doc-links a:hover{color:#80dba5}@media(max-width:680px){.footer-doc-links{grid-column:1/-1!important;flex-wrap:wrap}}
+
+/* Readability pass: raise supporting copy and interface text while retaining the layout. */
+body{font-size:17px;line-height:1.75}
+.site-nav{font-size:14px}
+.eyebrow{font-size:10px;letter-spacing:1.25px}
+.hero-lede{font-size:16px;line-height:1.8}
+.button{font-size:14px}
+.text-link{font-size:14px}
+.hero-facts{font-size:12px}
+.hero-facts b{font-size:15px}
+.floating-note{font-size:11px}
+.hero-bottomline{font-size:9px}
+.section-heading>p:last-child,.center-heading>p:last-child,.content-intro>p:not(.eyebrow),.audience-copy>p:not(.eyebrow){font-size:15px}
+.friction-list h3{font-size:14px}
+.friction-list p{font-size:13px;line-height:1.7}
+.list-number{font-size:10px}
+.step-card>span{font-size:10px}
+.step-card p{font-size:12px;line-height:1.65}
+.flow-footnote{font-size:12px}
+.preview-top,.mini-label{font-size:10px}
+.preview-card>p{font-size:12px}
+.preview-caption{font-size:9px}
+.preview-checklist li{font-size:12px}
+.preview-stamp small{font-size:9px}
+.chapters-heading>p{font-size:14px}
+.chapter-tag{font-size:9px}
+.chapter-card p{font-size:13px}
+.chapter-meta{font-size:9px}
+.audience-points{font-size:13px}
+.audience-copy .not-advice{font-size:12px}
+.outcome-top{font-size:10px}
+.outcome-line{font-size:13px}
+.outcome-note{font-size:11px}
+.purchase-lede{font-size:15px}
+.purchase-includes>span{font-size:9px}
+.purchase-includes p{font-size:12px}
+.price-row{font-size:12px}
+.price-row strong{font-size:15px}
+.checkout-hint{font-size:12px}
+.checkout-hint code{font-size:11px}
+.delivery-note p{font-size:12px}
+.faq-intro>p:not(.eyebrow){font-size:14px}
+.faq-list summary{font-size:14px}
+.faq-list details p{font-size:13px}
+.footer-main>p,.footer-top{font-size:11px}
+.footer-bottom{font-size:10px}
+@media(max-width:680px){
+ body{font-size:16px}
+ .site-nav{font-size:14px}
+ .eyebrow{font-size:9px;letter-spacing:1px}
+ .hero-lede{font-size:15px}
+ .button{font-size:13px}
+ .text-link{font-size:13px}
+ .hero-facts{font-size:10.5px}
+ .hero-facts b{font-size:13px}
+ .floating-note{font-size:10px}
+ .hero-bottomline{font-size:8px}
+ .section-heading>p:last-child,.content-intro>p:not(.eyebrow),.audience-copy>p:not(.eyebrow){font-size:14px}
+ .friction-list h3{font-size:13px}
+ .friction-list p{font-size:12px}
+ .step-card>span{font-size:9px}
+ .step-card h3{font-size:12px}
+ .step-card p{font-size:11px}
+ .flow-footnote{font-size:11px}
+ .preview-top,.mini-label{font-size:9px}
+ .preview-card>p{font-size:11px}
+ .preview-caption{font-size:8px}
+ .preview-checklist li{font-size:11px}
+ .chapters-heading>p{font-size:13px}
+ .chapter-tag,.chapter-meta{font-size:8px}
+ .chapter-card h3{font-size:13px}
+ .chapter-card p{font-size:12px}
+ .audience-points{font-size:12px}
+ .audience-copy .not-advice{font-size:11px}
+ .outcome-top{font-size:9px}
+ .outcome-line{font-size:12px}
+ .outcome-note{font-size:10px}
+ .purchase-lede{font-size:14px}
+ .purchase-includes p{font-size:11px}
+ .price-row{font-size:11px}
+ .price-row strong{font-size:14px}
+ .checkout-hint{font-size:11px}
+ .delivery-note p{font-size:11px}
+ .faq-intro>p:not(.eyebrow){font-size:13px}
+ .faq-list summary{font-size:13px}
+ .faq-list details p{font-size:12px}
+ .footer-main>p,.footer-top{font-size:10px}
+ .footer-bottom{font-size:9px}
+}
+@media(max-width:370px){
+ .hero-lede{font-size:14px}
+ .hero-actions .text-link{font-size:12px}
+ .hero-facts{font-size:9.5px}
+ .friction-list p,.chapter-card p{font-size:11px}
+ .faq-list summary{font-size:12px}
+ .faq-list details p{font-size:11.5px}
+}
