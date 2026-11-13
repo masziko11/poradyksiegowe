@@ -1,6 +1,5 @@
-// Wklej tutaj bezpośredni adres strony płatności (Naffy, Easycart lub innej).
-// Pusty adres pozostawia stronę w trybie demonstracyjnym i nie symuluje zakupu.
-const CHECKOUT_URL = "";
+// Bezpośredni link do zakupu e-booka w Naffy.
+const CHECKOUT_URL = "https://www.naffy.io/mateusz-kolodziejski-chfzi/ksef-w-malej-firmie-tc6";
 
 const menuButton = document.querySelector(".menu-toggle");
 const navigation = document.querySelector(".site-nav");
@@ -26,7 +25,7 @@ const checkout = document.querySelector("[data-checkout]");
 const checkoutHint = document.querySelector("[data-checkout-hint]");
 if (CHECKOUT_URL && checkout) {
   checkout.href = CHECKOUT_URL;
-  checkout.target = "_blank";
+  checkout.target = "_self";
   checkout.rel = "noopener noreferrer";
   checkout.textContent = "Kup teraz ↗";
   checkout.removeAttribute("aria-disabled");
