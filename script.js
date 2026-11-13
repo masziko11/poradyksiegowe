@@ -1,4 +1,3 @@
-// Bezpośredni link do zakupu e-booka w Naffy.
 const CHECKOUT_URL = "https://www.naffy.io/mateusz-kolodziejski-chfzi/ksef-w-malej-firmie-tc6";
 
 const menuButton = document.querySelector(".menu-toggle");
@@ -21,18 +20,11 @@ if (menuButton && navigation) {
   });
 }
 
-const checkout = document.querySelector("[data-checkout]");
-const checkoutHint = document.querySelector("[data-checkout-hint]");
-if (CHECKOUT_URL && checkout) {
-  checkout.href = CHECKOUT_URL;
-  checkout.target = "_self";
-  checkout.rel = "noopener noreferrer";
-  checkout.textContent = "Kup teraz ↗";
-  checkout.removeAttribute("aria-disabled");
-  checkoutHint.hidden = true;
-} else if (checkout) {
-  checkout.addEventListener("click", (event) => event.preventDefault());
-}
+document.querySelectorAll("[data-checkout]").forEach((button) => {
+  button.href = CHECKOUT_URL;
+  button.target = "_self";
+  button.removeAttribute("aria-disabled");
+});
 
 const year = document.querySelector("[data-year]");
 if (year) year.textContent = new Date().getFullYear();
